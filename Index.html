@@ -5,8 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="script.js"></script>
+    
+    <style>
+        select{
+            margin-right: 10px;
+            padding: 5px;
+            font-size: 16px;
+        }
+
+        p{
+            margin-top: 20px;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Font Customizer</h1>
+    <select name="fontSelect" id="fontSelect">
+        <option value="Arial">Arial</option>
+        <option value="Georgia">Georgia</option>
+        <option value="Verdana">Verdana</option>
+    </select>
+
+    <select id="sizeSelect">
+        <option value="16px">16</option>
+        <option value="18px">18</option>
+        <option value="20px">20</option>
+        <option value="22px">22</option>
+        <option value="24px">24</option>
+    </select>
+
+    <select id="colorSelect">
+        <option value="black">black</option>
+        <option value="blue">blue</option>
+        <option value="red">red</option>
+    </select>
+
+    <p id="displayText">This is a customizable paragraph</p>
 </body>
 </html>
